@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Weather Data Visualizations</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./WebVisualizations/Resources/styles.css">
+  <link rel="stylesheet" href="./WebVisualizations/styles.css">
 
 </head>
 <body>
@@ -18,7 +18,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto   ">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="far fa-images"></i> Plots</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -35,16 +35,15 @@
 </nav>
 
  <div class="container">
-
     <div class="row">
         <div class="col-md-6">
         <!-- Jumbotron -->
         <div class="jumbotron text-left">
         <!-- Title -->
             <h1 class="h1">Summary</h1>
-            <a href="./WebVisualizations/max_temperature.html" title="max_temperature"><img src="./WebVisualizations/assets/Fig1.png" width="320" height="200" ALIGN="left" class="img-fluid" alt="max temperature"></a>
             <h5 class="indigo-text h5 mb-4">Visualizations</h5>
             <p class="card-text"></p>
+              <a href="./WebVisualizations/max_temperature.html" title="max_temperature"><img src="./WebVisualizations/assets/Fig1.png" class ="image-fluid" width="320" height="200" ALIGN="left" alt="max temperature"></a>
               The purpose of this project was to analyze how weather changes as you get closer
               to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
               API to assemble a dataset on over 500 cities.
@@ -67,19 +66,17 @@
         <h1 class="h1">Visualizations</h1>
 
         <!-- Card image -->
-        <div class="view overlay my-4">
+        <div class="view overlay">
             <div class="row">
-                <div class="col-md-6"> 
-                    <a href="./WebVisualizations/max_temperature.html" title="max temperature"><img src="./WebVisualizations/assets/Fig1.png" class="img-fluid" alt="max temperature"></a> </div>
-                <div class="col-md-6">
-                    <a href="./WebVisualizations/humidity.html" title="humidity"><img src="./WebVisualizations/assets/Fig2.png" class="img-fluid" alt="humidity"></a></div>
-            </div>  <!-- end top row -->
-            <br>
-            <div class="row">
-                <div class="col-md-6"> 
-                    <a href="./WebVisualizations/cloudiness.html" title="cloudiness"><img src="./WebVisualizations/assets/Fig3.png" class="img-fluid" alt="cloudiness"></a> </div>
-                <div class="col-md-6">
-                    <a href="./WebVisualizations/wind_speed.html" title="wind speed"><img src="./WebVisualizations/assets/Fig4.png" class="img-fluid" alt="wind speed"></a></div>
+                <div class="col-lg-6 col-md-6 col-sm-3"> 
+                    <a href="./WebVisualizations/max_temperature.html" title="max temperature">
+                      <img src="./WebVisualizations/assets/Fig1.png" class="img-fluid border-grow" alt="max temperature"></a> </div>
+                <div class="col-md-6  col-sm-3 ">
+                    <a href="./WebVisualizations/humidity.html" title="humidity"><img src="./WebVisualizations/assets/Fig2.png" class="img-fluid border-grow" alt="humidity"></a></div>
+                <div class="col-md-6 col-md-6 col-sm-3"> 
+                    <a href="./WebVisualizations/cloudiness.html" title="cloudiness"><img src="./WebVisualizations/assets/Fig3.png" class="img-fluid border-grow" alt="cloudiness" ></a> </div>
+                <div class="col-md-6 col-md-6 col-sm-3">
+                    <a href="./WebVisualizations/wind_speed.html" title="wind speed"><img src="./WebVisualizations/assets/Fig4.png" class="img-fluid border-grow" alt="wind speed"></a></div>
             </div>
         </div>
     </div>
