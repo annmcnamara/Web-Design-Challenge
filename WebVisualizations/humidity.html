@@ -1,0 +1,73 @@
+<!-- Latitude Versus Humitdit -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Data Visualizations</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="Resources/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+  <a class="navbar-brand navbar-light blue lighten-4" href="./index.html">Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon text-right"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto   ">
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="far fa-images"></i> Plots</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="./max_temperature.html"> <i class="fas fa-temperature-high"></i> Max Temperature</a>
+          <a class="dropdown-item" href="./humidity.html"> <i class="fas fa-tint"></i> Humidity</a>
+          <a class="dropdown-item" href="./cloudiness.html"> <i class="fas fa-cloud"></i> Cloudiness</a>
+          <a class="dropdown-item" href="./wind_speed.html"><i class="fas fa-wind"></i> Wind Speed</a>
+        </div>
+      </li>
+      <li class="nav-item active"><a class="nav-link" href="./comparison.html"><i class="fas fa-th-large"></i> Comparison</a></li>
+      <li class="nav-item active"><a class="nav-link" href="./data.html"> <i class="fas fa-table"></i> Data</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+ <div class="container">
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center">
+        <!-- Title -->
+            <h4 class="card-title h4 pb-4 text-left"><strong>Humidity</strong></h4>
+            <img src="./assets/Fig2.png" class="img-fluid" alt="Humidity">
+            <!-- Card image -->
+            <!-- <div class="view overlay my-4">
+                <img src="./assets/Fig1.png" class="img-fluid" alt="">
+                <img src="./assets/Fig2.png" class="img-fluid" alt="">
+
+                <a href="#">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div> -->
+            <br>
+            <!-- <h5 class="indigo-text h5 mb-4">Visualizations</h5> -->
+            <p class="card-text text-left pt-4 ">As we approach the equator (0 degrees latitude), the weather becomes warmer.  It is 
+            interesting that the southern hemisphere  (latitude values less than zero) are warmer than the 
+            temperatures in the northern hemisphere (latitude values greater than zero).  This may be due to the 
+            tilt of the earth when the temperatures were recorded.  </p>
+
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/595201ff7b.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

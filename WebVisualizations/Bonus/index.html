@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="National Parks Project">
+  <meta name="Ann McNamara" content="National Parks">
+
+  <title>National Parks Analysis - Group Project</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Navigation</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#visualizations">Plots</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#comparisons">Comparisons</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#data">Data</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-2">National Park Analysis</h1>
+      <h3 class="mb-5 text-white">
+        <em>National Park Analysis Project using Plotly</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger btn-light" href="#about">Begin</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>This Project Analysed National Park Visitor Data</h2><br>
+          <p class="lead mb-5">Park data was retrieved using the National Park APIs from  
+            <a href="https://www.nps.gov/subjects/developer/api-documentation.htm">National Park Data</a> and <a href="https://irmaservices.nps.gov/">National Park Visitor Data</a><br>
+          Weather data was retrieved using the 
+            <a href="https://api.darksky.net/">Dark Sky API.</a> <br>
+          
+          Gas Price data was retrieved using the <a href = "https://www.eia.gov/">EIA (US Energy Informaton Association) API.</a> <br><br>
+
+          (JSON) Data was retrieved from the APIs above and loaded intto dataframes using using python and pandas. 
+          <br> <br> The interacive plots linked on this page were created using plotly.
+	</p>
+	   <a class="btn btn-dark btn-xl js-scroll-trigger" href="#visualizations">Continue</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="content-section bg-primary text-white text-center" id="visualizations">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Interactive Plots</h3>
+        <h2 class="mb-5">Data Visualization</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <a href="./Resources/average_visitor_number_by_state_2019.html"><i class="fas fa-flag-usa"></i></span></a>
+          </span>
+          <h4>
+            <strong>Visitor Data </a></strong>
+          </h4>
+          <p class="text-faded mb-0">Park Visitors By State</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <a href="./Resources/pop_visit.html"><i class="fas fa-users"></i></a>
+          </span>
+          <h4>
+            <strong>Population</strong>
+          </h4>
+          <p class="text-faded mb-0">Park Visitors by State Population</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <a href="./Resources/gas_prices.html"><i class="fas fa-dollar-sign"></i></a>
+          </span>
+          <h4>
+            <strong>Gas Prices</strong>
+          </h4>
+          <p class="text-faded mb-0">Gas Prices in Select States</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <a href="./Resources/gas_visit.html"><i class="fas fa-gas-pump"></i></a>
+          </span>
+          <h4>
+            <strong>Gas Prices and Visitors</strong>
+          </h4>
+          <p class="text-faded mb-0">Park Visitor by Gas Prices</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <h3> Click on each icon to visit the interactive plot </h3> <br>
+    <a class="btn btn-light btn-l js-scroll-trigger" href="#comparisons">Continue</a>
+
+
+  </section>
+
+  <!-- Callout
+  <section class="callout">
+    <div class="container text-center">
+      <h2 class="mx-auto mb-5">Welcome to
+        <em>your</em>
+        next website!</h2>
+      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+    </div>
+  </section> -->
+
+  <!-- Portfolio -->
+  <section class="content-section" id="comparisons">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">National Parks Visitor Data</h3>
+        <h2 class="mb-5">Chart Comparisons</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="img/ave_visitors_sample.png">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>States</h2>
+                <p class="mb-0">Vistitors by state</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/ave_visitors_sample.png" alt="States">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="img/ave_gas_sample_states.png">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Gas Prices</h2>
+                <p class="mb-0">Average Gas Prices </p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/ave_gas_sample_states.png" alt="Gas Prices">
+          </a>
+        </div>
+      
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="img/gas_visitor.png">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Gas Prices</h2>
+                <p class="mb-0">Visitor Data Versus Gas Prices For California</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/gas_visitor.png" alt="Gas prices">
+          </a>
+        </div>
+
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="img/gasvvisit.png">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Gas Prices and Visitors</h2>
+                <p class="mb-0">Gas Prices versus Park Visitors</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/gasvvisit.png" alt="park visitors">
+          </a>
+        </div>
+
+      </div>
+      <span class="caption">
+        <span class="caption-content">
+          <h2>Charts</h2>
+          <p class="mb-0">Click on each Chart to view a larger version.</p><br>
+          <a class="btn btn-light btn-l js-scroll-trigger " href="#data">Continue</a></p>
+
+        </span>
+      </span>
+
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+  <!-- <section class="content-section bg-primary text-white">
+    <div class="container text-center" id="data">
+      <h2 class="mb-4">Data</h2>
+      <a href="#gas" class="btn btn-xl btn-light mr-4">Monthly Average Gas Price in Select States</a>
+      <a href="#visits" class="btn btn-xl btn-light mr-4">Annual Visitors in Select States</a>
+    </div>
+  </section> -->
+  <section class="content-section bg-primary text-white text-center" id="data">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Data</h3>
+        <div class="row no-gutters">
+          <div class="col-lg-12">
+        <h2 class="mb-5">Gas Prices</h2>
+        <div class = "table-respsonsive table-striped table-hover border-spacing: 30px">
+          <table style="border:5px solid goldenrod;margin-left:auto ;margin-right:auto; font-size: 15px; padding:100px; width:1000px;>
+            <thead>
+            <tr style="text-align: left;>
+              <th>Date</th>
+              <th>CA</th>
+              <th>CO</th>
+              <th>FL</th>
+              <th>MA</th>
+              <th>MN</th>
+              <th>NY</th>
+              <th>OH</th>
+              <th>TX</th>
+              <th>WA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2019-12-01</td>
+              <td>3.610</td>
+              <td>2.843</td>
+              <td>2.496</td>
+              <td>2.627</td>
+              <td>2.418</td>
+              <td>2.670</td>
+              <td>2.610</td>
+              <td>2.285</td>
+              <td>3.163</td>
+            </tr>
+            <tr>
+              <td>2019-11-01</td>
+              <td>3.944</td>
+              <td>2.890</td>
+              <td>2.426</td>
+              <td>2.631</td>
+              <td>2.486</td>
+              <td>2.675</td>
+              <td>2.529</td>
+              <td>2.299</td>
+              <td>3.348</td>
+            </tr>
+            <tr>
+              <td>2019-10-01</td>
+              <td>4.116</td>
+              <td>2.822</td>
+              <td>2.460</td>
+              <td>2.638</td>
+              <td>2.520</td>
+              <td>2.676</td>
+              <td>2.563</td>
+              <td>2.324</td>
+              <td>3.294</td>
+            </tr>
+            <tr>
+              <td>2019-09-01</td>
+              <td>3.687</td>
+              <td>2.692</td>
+              <td>2.472</td>
+              <td>2.661</td>
+              <td>2.533</td>
+              <td>2.728</td>
+              <td>2.595</td>
+              <td>2.358</td>
+              <td>3.134</td>
+            </tr>
+            <tr>
+              <td>2019-08-01</td>
+              <td>3.555</td>
+              <td>2.608</td>
+              <td>2.451</td>
+              <td>2.746</td>
+              <td>2.572</td>
+              <td>2.822</td>
+              <td>2.631</td>
+              <td>2.405</td>
+              <td>3.170</td>
+            </tr>
+            <tr>
+              <td>2019-07-01</td>
+              <td>3.668</td>
+              <td>2.733</td>
+              <td>2.641</td>
+              <td>2.779</td>
+              <td>2.622</td>
+              <td>2.868</td>
+              <td>2.754</td>
+              <td>2.520</td>
+              <td>3.242</td>
+            </tr>
+            <tr>
+              <td>2019-06-01</td>
+              <td>3.787</td>
+              <td>2.876</td>
+              <td>2.542</td>
+              <td>2.791</td>
+              <td>2.640</td>
+              <td>2.860</td>
+              <td>2.610</td>
+              <td>2.437</td>
+              <td>3.392</td>
+            </tr>
+            <tr>
+              <td>2019-05-01</td>
+              <td>4.019</td>
+              <td>2.920</td>
+              <td>2.709</td>
+              <td>2.894</td>
+              <td>2.745</td>
+              <td>2.967</td>
+              <td>2.715</td>
+              <td>2.602</td>
+              <td>3.513</td>
+            </tr>
+            <tr>
+              <td>2019-04-01</td>
+              <td>3.894</td>
+              <td>2.729</td>
+              <td>2.769</td>
+              <td>2.725</td>
+              <td>2.714</td>
+              <td>2.840</td>
+              <td>2.675</td>
+              <td>2.589</td>
+              <td>3.313</td>
+            </tr>
+            <tr>
+              <td>2019-03-01</td>
+              <td>3.342</td>
+              <td>2.398</td>
+              <td>2.577</td>
+              <td>2.516</td>
+              <td>2.478</td>
+              <td>2.622</td>
+              <td>2.461</td>
+              <td>2.330</td>
+              <td>2.905</td>
+            </tr>
+            <tr>
+              <td>2019-02-01</td>
+              <td>3.236</td>
+              <td>2.131</td>
+              <td>2.316</td>
+              <td>2.433</td>
+              <td>2.178</td>
+              <td>2.470</td>
+              <td>2.256</td>
+              <td>2.080</td>
+              <td>2.818</td>
+            </tr>
+            <tr>
+              <td>2019-01-01</td>
+              <td>3.232</td>
+              <td>2.190</td>
+              <td>2.223</td>
+              <td>2.499</td>
+              <td>2.071</td>
+              <td>2.517</td>
+              <td>2.018</td>
+              <td>1.977</td>
+              <td>2.916</td>
+            </tr>
+          </tbody>
+        </table>
+       </div>
+      </class>
+      </div>
+      </div>
+      </div>
+  
+    </div>
+    </div>
+    <br>
+  <!-- </section>
+  <section class="content-section bg-primary text-white text-center" id="visits">
+    <div class="container"> -->
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Data</h3>
+        <h2 class="mb-5">Annual Park Visitors By State</h2>
+        <div class = "table-respsonsive table-striped table-hover border-spacing: 30px">
+          <table style="border:5px solid goldenrod;margin-left:auto ;margin-right:auto; font-size: 15px;  width:1000px;">
+
+            <thead>
+              <tr style="text-align: center;">
+                <th>StateCode</th>
+                <th>Visitors</th>
+                <th>lon</th>
+                <th>lat</th>
+                <th>Mean Gas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CA</td>
+                <td>37742509</td>
+                <td>-119.0</td>
+                <td>37.0</td>
+                <td>3.67417</td>
+              </tr>
+              <tr>
+                <td>CO</td>
+                <td>7858765</td>
+                <td>-106.0</td>
+                <td>39.0</td>
+                <td>2.65267</td>
+              </tr>
+              <tr>
+                <td>FL</td>
+                <td>13057983</td>
+                <td>-82.0</td>
+                <td>29.0</td>
+                <td>2.50683</td>
+              </tr>
+              <tr>
+                <td>MA</td>
+                <td>10003220</td>
+                <td>-72.0</td>
+                <td>42.0</td>
+                <td>2.66167</td>
+              </tr>
+              <tr>
+                <td>MN</td>
+                <td>1418407</td>
+                <td>-94.0</td>
+                <td>46.0</td>
+                <td>2.49808</td>
+              </tr>
+              <tr>
+                <td>NY</td>
+                <td>22723287</td>
+                <td>-76.0</td>
+                <td>43.0</td>
+                <td>2.72625</td>
+              </tr>
+              <tr>
+                <td>OH</td>
+                <td>2613089</td>
+                <td>-83.0</td>
+                <td>40.0</td>
+                <td>2.53475</td>
+              </tr>
+              <tr>
+                <td>TX</td>
+                <td>5834681</td>
+                <td>-99.0</td>
+                <td>31.0</td>
+                <td>2.3505</td>
+              </tr>
+              <tr>
+                <td>WA</td>
+                <td>8194032</td>
+                <td>-120.0</td>
+                <td>47.0</td>
+                <td>3.184</td>
+              </tr>
+            </tbody>
+          </table>
+       </div>
+      </class>
+    </div>
+    </div>
+    <br>
+    <a class="btn btn-light btn-l js-scroll-trigger " href="#page-top">Home</a></p>
+
+  </section>
+
+  <!-- Map -->
+  <section id="contact" class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Glasscock, + Rice,+University.,+Street,+Houston,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Rice,+University,+University+Street,+Houston,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small>
+      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rice,+Univeristy,+Houston,+Texas,+CA&amp;aq=0&amp;oq=rice&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+    </small>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="http://www.facebook.com">
+            <i class="icon-social-facebook"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/McnamaraDr">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="https://github.com/annmcnamara">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; ann mcnamara 2020</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
