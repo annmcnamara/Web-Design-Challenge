@@ -72,27 +72,27 @@ This section contains screenshots of each page that must be built, at varying sc
 #### Landing page
 
 Large screen:
-![Landing page large screen](Images/landing-page.png)
+![Landing page large screen](Images/landing_page.png)
 
 Small screen:
-![Landing page small screen](Images/landing-small.png)
+![Landing page small screen](Images/landing_small.png)
 ￼
 
 #### Comparisons page
 
 Large screen:
-![comparison page large screen](Images/comparison-large.png)
+![comparison page large screen](Images/comparison_big.png)
 
 Small screen:
-![comparison page small screen](Images/comparison-small.png)
+![comparison page small screen](Images/comparison_small.png)
 
 #### Data page
 
 Large screen:
-![data page large screen](Images/data-large.png)
+![data page large screen](Images/data_big.png)
 
 Small screen:
-![data page small screen](Images/data-small.png)
+![data page small screen](Images/data_small.png)
 
 #### Visualization pages
 
@@ -107,14 +107,14 @@ Small screen:
 #### Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](Images/landing_page.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](Images/landing_small.png)
 
 #### Navigation menu
 Icons:
-![Icons on Dropdown](Images/show_plot.png)
+![Icons on Dropdown](Images/show_plot_menu.png)
 
 #### Showing Borders 
 Icons:
