@@ -91,12 +91,11 @@ Small screen:
 Large screen:
 ![data page large screen](Images/data_big.png)
 
-Small screen:
+Small screen:<br>
 ![data page small screen](Images/data_small.png)
 
 #### Visualization pages
-
-You'll build four of these, one for each visualization. Here's an example of one:
+There are four of these, one for each visualization. Here's an example of one:
 
 Large screen:
 ![visualize page large screen](Images/temperature_big.png)
