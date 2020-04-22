@@ -54,7 +54,7 @@ The website is be deployed to GitHub pages.
 
 ### Considerations
 
-* The [weather data](WebVisualizations/Resources/cities.csv) ws used for the requirements. 
+* This [weather data](WebVisualizations/Resources/cities.csv) was used for the requirements. 
 * Bootstrap is used. This includes using the bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
 * The website is deployed to GitHub pages, with the website working on a live, publicly accessible URL as a result.
 * Care was taken to ensure website works at all window widths/sizes.
