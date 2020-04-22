@@ -4,7 +4,7 @@
 
 This project using HTML and CSS to create a dashboard showcasing weather data analysis.
 
-![Images/landingResize.png =250x](Images/landing_page.png)
+![Images/landingResize.png =50x](Images/landing_page.png)
 
 ### In this Repository
 
@@ -54,7 +54,7 @@ The website is be deployed to GitHub pages.
 
 ### Considerations
 
-* The [weather data](Resources/cities.csv) ws used for the requirements. 
+* The [weather data](WebVisualizations/Resources/cities.csv) ws used for the requirements. 
 * Bootstrap is used. This includes using the bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
 * The website is deployed to GitHub pages, with the website working on a live, publicly accessible URL as a result.
 * Care was taken to ensure website works at all window widths/sizes.
@@ -67,7 +67,7 @@ The website is be deployed to GitHub pages.
 
 ### Screenshots
 
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
+A selection of screenshots from the web pages. 
 
 #### Landing page
 
@@ -124,4 +124,4 @@ Icons:
 
 ### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
+Ann McNamara © 2020. All Rights Reserved.
