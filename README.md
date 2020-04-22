@@ -4,7 +4,7 @@
 
 This project using HTML and CSS to create a dashboard showcasing weather data analysis.
 
-![Images/landingResize.png](Images/landing_page_.png)
+![Images/landingResize.png](Images/landing_page.png =250x)
 
 ### In this Repository
 
@@ -99,7 +99,7 @@ There are four of these, one for each visualization. Here's an example of one:
 
 Large screen:
 ![visualize page large screen](Images/temperature_big.png)
-
+<br>
 Small screen:
 ![visualize page small screen](Images/temperature_small.png)
 
