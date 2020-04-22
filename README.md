@@ -3,9 +3,7 @@
 ## Background
 
 This project using HTML and CSS to create a dashboard showcasing weather data analysis.
-
-![Images/landingResize.png =50px]()
-<img src="Images/landing_page.png" alt="drawing" style="width:50px;"/>
+<img src="Images/landing_page.png" alt="landing" style="width:50px;"/>
 
 ### In this Repository
 
