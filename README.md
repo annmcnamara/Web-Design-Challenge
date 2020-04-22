@@ -77,17 +77,16 @@ A selection of screenshots from the web pages.
 #### Data page
 <img src="Images/data.png" width="600" />
 
-#### Nav Bar 
-<img src="Images/landing.png" width="600" />
 
 #### Visualization pages
 There are four of these, one for each visualization. Here's an example of one:
 <img src="Images/temperature.png" width="600" />
 
 #### Navigation menu and Borders
+<img src="Images/nav.png" width="600" />
+
+#### Navigation Dropdown with icons and Selection with Borders
 <img src="Images/add_ons.png" width="600" />
-
-
 
 
 
