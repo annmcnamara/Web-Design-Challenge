@@ -37,7 +37,7 @@ h4 {
   }
 
 /* Giving our navbar some padding and a background color */
-@media screen and (min-width: 0px) and (max-width: 800px)
+@media screen and (min-width: 0px) and (max-width: 786px)
 {
   .navbar .navbar-brand {
   font-variant: small-caps;
@@ -45,11 +45,10 @@ h4 {
   font-size: 40px;
   padding: 5px;
   background: navy;  /* Tiffany Blue */
-  transition: screen 0.3s linear;
 
   }
 }
-@media screen and (min-width: 801px)
+@media screen and (min-width: 787px)
 {
   .navbar .navbar-brand {
   font-variant: small-caps;
@@ -57,7 +56,6 @@ h4 {
   font-size: 40px;
   padding: 5px;
   background: #0abab5;  /* Tiffany Blue */
-  transition: screen 0.3s linear;
   }
 }
 
