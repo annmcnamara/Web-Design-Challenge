@@ -12,7 +12,7 @@ This project using HTML and CSS to create a dashboard showcasing weather data an
 2. A folder called WebVisualizations which contains all **html**, **assets**, **Resources** and **visualizations**
 
 3. **WebVisualizations** also holds the **BONUS** material. 
-<a href = "https://annmcnamara.github.io/Web-Design-Challenge/WebVisualizations/Bonus>">Click For Bonus Web Page</a>
+<a href = "https://annmcnamara.github.io/Web-Design-Challenge/WebVisualizations/Bonus">Click For Bonus Web Page</a>
 
 4. This README.md
 
@@ -48,7 +48,7 @@ At the the top of each page has a navigation menu that:
 * Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
   * Note: https://fontawesome.com/ was used to include the icons 
 * Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
-* Is responsive (using media queries). The nav must have behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
+* Is responsive (using media queries). The nav must have behavior as the screenshots ["Navigation menu and Borders" section](#navigation-menu) (notice the background color change).
 
 The website is be deployed to GitHub pages.
 
