@@ -77,6 +77,8 @@ A selection of screenshots from the web pages.
 #### Data page
 <img src="Images/data.png" width="600" />
 
+#### Nav Bar 
+<img src="Images/landing.png" width="600" />
 
 #### Visualization pages
 There are four of these, one for each visualization. Here's an example of one:
