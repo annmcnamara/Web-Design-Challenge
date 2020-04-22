@@ -3,9 +3,19 @@ body {
   background: #f1f1f1;
 }
 
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .jumbotron { background-color: red; }
+}
+@media screen and (min-width: 401px) and (max-width: 599px) {
+  .navbar { background-color: green; }
+}
+@media screen and (min-width: 600px) {
+  .navbar { background-color: blue; }
+}
+
 h1 {
   font-family: Georgia, serif;
-  font-size: 25px;
+  font-size: 250px;
   letter-spacing: 0px;
   color: #0abab5;
   font-weight: 700;
@@ -66,6 +76,7 @@ h4 {
   margin: 0;
   color: #0abab5;
   text-align: left;
+  font-size: 100px;
 }
 
 .card-title {

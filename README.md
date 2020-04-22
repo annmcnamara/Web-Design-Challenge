@@ -50,7 +50,7 @@ At the the top of each page has a navigation menu that:
 * Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 * Is responsive (using media queries). The nav must have behavior as the screenshots  ["Navigation Menu" section](#navigation-menu) (notice the background color change).
 
-The website is be deployed to GitHub pages.
+The website is be deployed to GitHub pages.  The link is <a href = "https://annmcnamara.github.io/Web-Design-Challenge/index.html">https://annmcnamara.github.io/Web-Design-Challenge/index.html></a>
 
 ### Considerations
 
