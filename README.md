@@ -12,6 +12,7 @@ This project using HTML and CSS to create a dashboard showcasing weather data an
 2. A folder called WebVisualizations which contains all **html**, **assets**, **Resources** and **visualizations**
 
 3. **WebVisualizations** also holds the **BONUS** material. 
+<a href = "https://annmcnamara.github.io/Web-Design-Challenge/WebVisualizations/Bonus/>">Click For Bonus Web Page</a>
 
 4. This README.md
 
@@ -61,8 +62,11 @@ The website is be deployed to GitHub pages.
 ### Bonuses
 
 * Using a different dataset - from a previous project looking at National Parks Data - the requirements above still hold, but the look and feel are different.
-* A bootstrap theme was used to customize your website. 
+* A bootstrap theme was used to customize the website.
+* Icons were used in the drop down menu  
 * Extra visualizations were included in the BONUS page
+
+** The bonus <a href =  https://annmcnamara.github.io/Web-Design-Challenge/WebVisualizations/Bonus> web page is linked here </a>
 
 ### Screenshots
 
