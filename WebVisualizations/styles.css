@@ -3,19 +3,10 @@ body {
   background: #f1f1f1;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  .jumbotron { background-color: red; }
-}
-@media screen and (min-width: 401px) and (max-width: 599px) {
-  .navbar { background-color: green; }
-}
-@media screen and (min-width: 600px) {
-  .navbar { background-color: blue; }
-}
 
 h1 {
   font-family: Georgia, serif;
-  font-size: 250px;
+  font-size: 50px;
   letter-spacing: 0px;
   color: #0abab5;
   font-weight: 700;
@@ -36,14 +27,38 @@ h4 {
   padding: 20px;
   background: #5191fd;
 }
-/* Giving our navbar some padding and a background color */
+
 .navbar .navbar-brand {
   font-variant: small-caps;
   color: white;
   font-size: 40px;
   padding: 5px;
-  background: #0abab5;  /* Tiffany Blue */
+  background:navy;  /* Tiffany Blue */
+  }
 
+/* Giving our navbar some padding and a background color */
+@media screen and (min-width: 0px) and (max-width: 800px)
+{
+  .navbar .navbar-brand {
+  font-variant: small-caps;
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+  background: navy;  /* Tiffany Blue */
+  transition: screen 0.3s linear;
+
+  }
+}
+@media screen and (min-width: 801px)
+{
+  .navbar .navbar-brand {
+  font-variant: small-caps;
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+  background: #0abab5;  /* Tiffany Blue */
+  transition: screen 0.3s linear;
+  }
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -64,6 +79,7 @@ h4 {
 
 }
 
+
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 30px;
@@ -76,7 +92,6 @@ h4 {
   margin: 0;
   color: #0abab5;
   text-align: left;
-  font-size: 100px;
 }
 
 .card-title {
@@ -100,12 +115,12 @@ h4 {
   text-align:center;
 }
 
+
 .jumbotron_data{
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  background-color:whitesmoke;
   text-align:left;
 }
 
