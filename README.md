@@ -69,16 +69,10 @@ The website is be deployed to GitHub pages.
 A selection of screenshots from the web pages. 
 
 #### Landing page
-Large screen:
-<img src="Images/landing_page.png" width="550" />
-Small screen:
-￼<img src="Images/landing_small.png" width="550" />
+<img src="Images/landing.png" width="550" />
 
 #### Comparisons page
-Large screen:
-<img src="Images/comparisons_big.png" width="550" />
-Small screen:
-<img src="Images/comparisons_small.png" width="550" />
+<img src="Images/comparisons.png" width="350" />
 
 #### Data page
 
