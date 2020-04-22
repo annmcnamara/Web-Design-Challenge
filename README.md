@@ -4,8 +4,8 @@
 
 This project using HTML and CSS to create a dashboard showcasing weather data analysis.
 
-![Images/landingResize.png =50x]()
-<img src="Images/landing_page.png" alt="drawing" style="width:200px;"/>
+![Images/landingResize.png =50px]()
+<img src="Images/landing_page.png" alt="drawing" style="width:50px;"/>
 
 ### In this Repository
 
