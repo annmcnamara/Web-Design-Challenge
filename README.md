@@ -3,7 +3,7 @@
 ## Background
 
 This project using HTML and CSS to create a dashboard showcasing weather data analysis.
-<img src="Images/landing_page.png" width="50" height="50"/>
+<img src="Images/landing_page.png" width="350" height="350"/>
 
 ### In this Repository
 
