@@ -69,43 +69,22 @@ The website is be deployed to GitHub pages.
 A selection of screenshots from the web pages. 
 
 #### Landing page
-<img src="Images/landing.png" width="550" />
+<img src="Images/landing.png" width="600" />
 
 #### Comparisons page
-<img src="Images/comparisons.png" width="350" />
+<img src="Images/comparisons.png" width="600" />
 
 #### Data page
+<img src="Images/data.png" width="600" />
 
-Large screen:
-![data page large screen](Images/data_big.png)
-
-Small screen:<br>
-![data page small screen](Images/data_small.png)
 
 #### Visualization pages
 There are four of these, one for each visualization. Here's an example of one:
+<img src="Images/temperature.png" width="600" />
 
-Large screen:
-![visualize page large screen](Images/temperature_big.png)
-<br>
-Small screen:
-![visualize page small screen](Images/temperature_small.png)
+#### Navigation menu and Borders
+<img src="Images/add_ons.png" width="600" />
 
-#### Navigation menu
-
-Large screen:
-![nav menu large screen](Images/landing_page.png)
-
-Small screen:
-![nav menu small screen](Images/landing_small.png)
-
-#### Navigation menu
-Icons:
-![Icons on Dropdown](Images/show_plot_menu.png)
-
-#### Showing Borders 
-Icons:
-![Borders When Selected](Images/show_borders.png)
 
 
 
