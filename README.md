@@ -12,7 +12,7 @@ This project using HTML and CSS to create a dashboard showcasing weather data an
 2. A folder called WebVisualizations which contains all **html**, **assets**, **Resources** and **visualizations**
 
 3. **WebVisualizations** also holds the **BONUS** material. 
-<a href = "https://annmcnamara.github.io/Web-Design-Challenge/WebVisualizations/Bonus/>">Click For Bonus Web Page</a>
+<a href = "https://annmcnamara.github.io/Web-Design-Challenge/WebVisualizations/Bonus>">Click For Bonus Web Page</a>
 
 4. This README.md
 
