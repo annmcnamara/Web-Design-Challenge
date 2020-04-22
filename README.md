@@ -81,10 +81,10 @@ Small screen:
 #### Comparisons page
 
 Large screen:
-![comparison page large screen](Images/comparison_big.png)
+![comparison page large screen](Images/comparisons_big.png)
 
 Small screen:
-![comparison page small screen](Images/comparison_small.png)
+![comparison page small screen](Images/comparisons_small.png)
 
 #### Data page
 
